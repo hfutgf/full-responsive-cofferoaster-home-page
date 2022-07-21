@@ -1,0 +1,172 @@
+@media (max-width: 375px) {
+  .container {
+    padding: 32px 24px;
+  }
+
+  .header__logo a img {
+    max-width: 163px;
+    max-height: 18px;
+  }
+
+  .header__right-item {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .header__right a {
+    font-size: 8px;
+    margin: 0px;
+  }
+  .header__cheked {
+    display: block;
+  }
+
+  .header__cheked:checked > .header__right-item {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-section-first {
+    margin: 0px;
+    background-image: url("../img/Object.png");
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    border-radius: 10px;
+    position: relative;
+
+    h2 {
+      max-width: 279px;
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 40px;
+      /* or 100% */
+
+      text-align: center;
+
+      color: #fefcf7;
+    }
+
+    p {
+      max-width: 279px;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    a {
+      position: absolute;
+      left: 65px;
+    }
+  }
+
+  .main-section-second {
+    & > h2 {
+      font-size: 52px;
+    }
+
+    &__blogs {
+      flex-direction: column;
+
+      &-img img {
+        width: 200px;
+      }
+
+      &-info h3 {
+        margin-top: 30px;
+        text-align: center;
+      }
+      &-info p {
+        margin: 0px;
+        margin-top: 20px;
+        max-width: 282px;
+        text-align: center;
+      }
+    }
+  }
+
+  .main-section-three {
+    & > p {
+      max-width: 279px;
+      text-align: center;
+      margin: 0px;
+    }
+
+    &-blogs-blog {
+      flex-direction: column;
+      img {
+        width: 70px;
+        margin: 72px 104px;
+      }
+
+      div h3,
+      p {
+        text-align: center;
+      }
+
+      div p {
+        max-width: 212px;
+        padding-bottom: 51px;
+      }
+    }
+  }
+
+  .main-section-four {
+    &__tittle {
+      padding-top: 780px;
+      text-align: center;
+    }
+
+    &-blogs {
+      flex-direction: column;
+    }
+
+    &-blogs__blog {
+      padding: 0 auto;
+      max-width: 327px;
+      margin: 0px 55px;
+
+      h2,h3,p{
+        text-align: center;
+      }
+
+      h2{
+        margin-left: 70px;
+      }
+
+      h3{
+        margin-left: 35px;
+      }
+
+      span {
+        display: none;
+      }
+      hr {
+        display: none;
+      }
+    }
+  }
+
+  .main-section-four__button{
+    margin: 0px 63px;
+  }
+}
+
+.footer >a img{
+    width: 215px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a{
+        text-align: center;
+    }
+}
+
+.footer-icons{
+    margin-left: auto;
+    margin-right: auto;
+}

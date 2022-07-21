@@ -1,0 +1,79 @@
+.main-section-four {
+  max-width: 1110px;
+  margin: 0 auto;
+  &__tittle {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #83888f;
+    padding-bottom: 90px;
+  }
+
+  &-blogs {
+    display: flex;
+    margin-bottom: 65px;
+
+    &__blog {
+      width: calc(100% / 3);
+hr{
+    border: 2px solid #FDD6BA;
+    background-color: #FDD6BA;
+}
+      span::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #fefcf7;
+        border: 2px solid #0e8784;
+        padding: 12px 20px;
+      }
+
+      h2 {
+        margin-top: 70px;
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        /* identical to box height, or 100% */
+        text-align: left;
+        color: #fdd6ba;
+        margin-bottom: 40px;
+      }
+
+      h3 {
+        width: 151px;
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        /* or 112% */
+        text-align: left;
+        color: #333d4b;
+        margin-bottom: 45px;
+      }
+
+      p {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        text-align: left;
+        color: #333d4b;
+        width: 285px;
+      }
+    }
+
+    &__blog:hover span::before {
+      background: #0e8784;
+    }
+  }
+}

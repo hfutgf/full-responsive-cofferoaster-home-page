@@ -1,0 +1,57 @@
+.footer {
+    margin-top: 200px;
+  min-height: 120px;
+  background: #2c343e;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  padding: 0px 85px;
+  justify-content: space-between;
+  &__logo {
+    transition: 0.5s;
+  }
+  &__logo:hover {
+    transform: translateY(-2px);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px,
+      rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px,
+      rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  }
+
+  &-nav {
+    a {
+      text-decoration: none;
+      margin-right: 20px;
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height, or 125% */
+
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+
+      color: #83888f;
+    }
+  }
+
+  &-nav a:hover {
+    color: #fefcf7;
+  }
+
+  &-icons a{
+    text-decoration: none;
+  }
+  &-icons a img{
+    margin-left: 20px;
+    transition: 0.5s;
+    border-radius: 2px;
+  }
+
+  &-icons a img:hover {
+    background: #fdd6ba;
+    transform: translateY(-5px);
+    
+  }
+}

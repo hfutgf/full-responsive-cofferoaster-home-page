@@ -1,0 +1,66 @@
+.main-section-second > h2 {
+  position: absolute;
+  font-family: "Fraunces 9pt";
+  text-align: center;
+  font-size: 200px;
+  background: -webkit-linear-gradient(#333, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.2;
+  
+}
+
+.main-section-second {
+  position: relative;
+  display: flex;
+
+  &__blogs {
+    
+    margin: 120px auto;
+
+  
+    &-info {
+      h3 {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+
+        color: #333d4b;
+        margin-top: 70px;
+      }
+
+      p {
+        max-width: 255px;
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #333d4b;
+
+        margin-top: 25px;
+      }
+    }
+  }
+  &__blogs:hover > &__blogs-img img {
+    transform: translateY(-30px);
+    // transition: 0.8s all;
+    transition-duration: 1s ;
+   
+    
+   
+  }
+
+  
+
+  
+}

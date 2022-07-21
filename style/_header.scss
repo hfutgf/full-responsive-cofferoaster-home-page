@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__right a {
+    text-decoration: none;
+    margin-left: 30px;
+
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+    transition: 0.3s;
+  }
+
+  &__right a:hover{
+    transform: translateY(-5px);
+    color: black;
+    
+   
+  }
+
+
+  .header__logo a img{
+    transition: 0.5s;
+
+  }
+
+  .header__logo a img:hover{
+    transform: translateY(-5px);
+  }
+
+.header__cheked{
+  display: none;
+}
+ 
+}
+
+
+
+
